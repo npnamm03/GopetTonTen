@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoLadi - Giao hàng nhanh</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+    <!-- Section 1: Header -->
+    <header id="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/viet-thang-long-logo.png" alt="Bảo Vệ Việt Thăng Long Logo">
+                </div>
+                <div class="contact-info">
+                    <span><i class="fa-regular fa-clock"></i> 8:00 đến 17:30 thứ 2 đến thứ 6</span>
+                    <span><i class="fa-solid fa-phone"></i> 0818.68.68.33</span>
+                    <span><i class="fa-solid fa-phone"></i> Tải ứng dụng Goladi: Đặt xe & Dịch vụ</span>
+                    <span class="notification"><i class="fa-solid fa-bell"></i></span>
+                </div>
+            </div>
+        </div>
+        <nav id="main-nav">
+            <div class="container">
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="main-menu">
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#services">Dịch vụ</a></li>
+                    <li><a href="#quote">Tư vấn báo giá</a></li>
+                    <li><a href="#projects">Dự án đang thực hiện</a></li>
+                    <li><a href="#recruitment">Tuyển dụng</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Section 2: Goladi Banner -->
+        <section id="hero-banner">
+            <div class="hero-content">
+            </div>
+        </section>
+
+        <!-- Section 3: Filter section -->
+        <section class="filter-section">
+            <div class="container filter-container">
+                <button class="filter-btn">Giá Nhượng quyền</button>
+                <button class="filter-btn">Chính sách nhượng quyền</button>
+                <button class="filter-btn">Điều kiện</button>
+
+                <input type="text" class="filter-search" placeholder="Nhập thông tin cần tìm kiếm">
+
+                <button class="search-btn">
+                    Tìm kiếm <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Section 4: Services section -->
+        <section class="services-section">
+            <div class="container">
+                <div class="services-grid">
+                    <!-- Service item -->
+                    <div class="service-item">
+                        <img src="images/icons/giao-do-an.png" alt="Giao đồ ăn">
+                        <h3>Giao đồ ăn</h3>
+                        <p>Dịch vụ bảo vệ mục tiêu cố định giúp đảm bảo an ninh...</p>
+                        <span class="highlight">Không thu % giá bằng giá ăn chỗ</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/oto.png" alt="Ôtô">
+                        <h3>Ôtô</h3>
+                        <p>Dịch vụ bảo vệ an ninh, sự kiện, vận chuyển chuyên nghiệp...</p>
+                        <span class="highlight">Giá dịch vụ rẻ hơn đến 25%</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/xe-may.png" alt="Xe máy">
+                        <h3>Xe máy</h3>
+                        <p>Dịch vụ bảo vệ an ninh, sự kiện, vận chuyển chuyên nghiệp...</p>
+                        <span class="highlight">Giá dịch vụ rẻ hơn đến 25%</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/don-san-bay.png" alt="Đón sân bay">
+                        <h3>Đón sân bay</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Xem danh mục</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/giao-hang.png" alt="Giao hàng">
+                        <h3>Giao hàng</h3>
+                        <p>Thiết bị an ninh là giải pháp hỗ trợ kiểm soát, giám sát và bảo vệ...</p>
+                        <span class="highlight">Xem danh mục</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/giup-viec.png" alt="Dịch vụ giúp việc">
+                        <h3>Dịch vụ giúp việc</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Chất lượng & Giá DV rẻ nhất</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/di-cho-ho.png" alt="Đi chợ hộ">
+                        <h3>Đi chợ hộ</h3>
+                        <p>Dịch vụ bảo vệ mục tiêu cố định giúp đảm bảo an ninh...</p>
+                        <span class="highlight">Không thu % giá bằng giá tại chỗ</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/dat-ve-may-bay.png" alt="Đặt vé máy bay">
+                        <h3>Đặt vé máy bay</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Giá rẻ hơn các đơn vị khác</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/thong-cong.png" alt="Dịch vụ thông cống">
+                        <h3>Dịch vụ thông cống</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Giá rẻ hơn các đơn vị khác</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/giao-hoa.png" alt="Dịch vụ giao hoa">
+                        <h3>Dịch vụ giao hoa</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Giá rẻ hơn các đơn vị khác</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/giat-ui.png" alt="Dịch vụ giặt ủi">
+                        <h3>Dịch vụ giặt ủi</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Giá rẻ hơn các đơn vị khác</span>
+                    </div>
+
+                    <div class="service-item">
+                        <img src="images/icons/sua-khoa.png" alt="Dịch vụ sửa khóa">
+                        <h3>Dịch vụ sửa khóa</h3>
+                        <p>Dịch vụ hợp tác độc quyền triển khai trên ứng dụng Goladi</p>
+                        <span class="highlight">Giá rẻ hơn các đơn vị khác</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Event section -->
+        <section class="event-section">
+            <div class="event-header">
+                <h2>Hành trình phát triển sự kiện</h2>
+                <a href="#" class="view-all">Xem tất cả <span>&#9654;</span></a>
+            </div>
+
+            <div class="event-list">
+                <!-- Card 1 -->
+                <div class="event-card">
+                    <img src="images/event1.jpg" alt="Thu hút khách hàng tại app">
+                    <div class="event-content">
+                        <h3>Thu hút khách hàng tại app</h3>
+                        <p class="event-category">Goladi: Đặt xe & Dịch vụ</p>
+                        <span class="event-tag">Mini Game "Quay Trúng Thưởng"</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="event-card">
+                    <img src="images/event2.jpg" alt="Tham gia bán mang đi">
+                    <div class="event-content">
+                        <h3>Tham gia bán mang đi</h3>
+                        <p class="event-category">Goladi: Quản lý</p>
+                        <span class="event-tag">Quán, Tạp Hóa, Sạp Chợ, Siêu Thị</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="event-card">
+                    <img src="images/event3.jpg" alt="Sự kiện công nghệ tại VN">
+                    <div class="event-content">
+                        <h3>Sự kiện công nghệ tại VN</h3>
+                        <p class="event-category">Goladi Việt Nam</p>
+                        <span class="event-tag">Công Nghệ Đổi Mới Sáng Tạo VN</span>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="event-card">
+                    <img src="images/event4.jpg" alt="Công nghệ vì Người Việt">
+                    <div class="event-content">
+                        <h3>Công nghệ vì Người Việt</h3>
+                        <p class="event-category">Goladi Việt Nam</p>
+                        <span class="event-tag">Cách Tuyển Và Đào Tạo Tài Xế</span>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="event-card">
+                    <img src="images/event5.jpg" alt="Goladi & Nhượng quyền">
+                    <div class="event-content">
+                        <h3>Goladi & Nhượng quyền</h3>
+                        <p class="event-category">Goladi Việt Nam</p>
+                        <span class="event-tag">Nhượng Quyền: 0858.60 61 68</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Goladi Introduction -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+                </div>
+                <div class="about-text">
+                    <h2>Về Goladi Việt Nam</h2>
+                    <p style="text-align: justify;">Goladi là ứng dụng đa dịch vụ cung cấp giải pháp kinh doanh số trong lĩnh vực như: Gọi xe công nghệ, Gọi
+                        tài xế riêng, Giao đồ ăn, Giao nhận hàng, thuê xe, Giúp việc, đi chợ hộ, chăm bệnh, khách sạn, du lịch,... </br>
+                         Điểm khác biệt mà Goladi tạo ra so với các ứng dụng hiện có trên thị trường: là Goladi không trừ % trên
+                        đơn, trên cuốc xe, Goladi thu phí sử dụng nền tảng theo ngày. Thiết lập thuật toán thu phí theo ngày.</br>
+                         Đối với khách hàng: Cùng một hành trình, cùng một dịch vụ được tiết kiệm rẻ hơn đến 25% về giá.</br>
+                         Đối với tài xế: cùng một tần suất làm việc sẽ có thu nhập cao hơn.</br>
+                         Đối tác "Bán mang đi" trên nền tảng: bán đúng giá nhận đủ tiền.</br>
+                         Đối với các Doanh nghiệp dịch vụ chuyển đổi số dễ dàng với mức chi phí thấp.</br>
+                        Công nghệ thì luôn có chỗ cho cái mới còn khinh doanh thì cần thay đổi linh hoạt theo thời cuộc.</br>
+                         Goladi phấn đấu nằm trong nhóm mô hình tiên phong cho đổi mới sáng tạo, góp phần tích cực đưa Việt Nam
+                         tiến bước mạnh mẽ trong kỷ nguyên số. Nhà sáng lập và dội ngũ dự án Goladi tin rằng công nghệ không chỉ
+                         thay đổi về một doanh thu về mặt tăng trưởng mà Công nghệ làm thay đổi tư duy và ảnh hưởng đến các thế 
+                         hệ tiếp bước về sau.</br></p>
+                    <a href="#" class="btn btn-red-outline">Xem thêm</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Chính sách nhượng quyền -->
+        <section id="about">
+            <div class="about-header">
+                <h2>Chính sách nhượng quyền</h2>
+                <a href="#" class="view-all">Xem tất cả <span>&#9654;</span></a>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p style="text-align: justify;">MỜI NHƯỢNG QUYỀN APP ĐẶT XE, GIAO ĐỒ ĂN, TÀI XẾ RIÊNG, GIÚP VIỆC</br>
+                        Mỗi khu vực 01 Đối tác độc quyền.</br>
+                        Mô hình vận hành 100% bằng công nghệ.</br>
+                        Đối tác nhượng quyền được đào tạo để có doanh thu ngay.</br>
+                        Vốn đầu tư chỉ từ 30 triệu đồng/Huyện; 50 triệu đồng/Thị xã; 150 triệu đồng/Thành phố, trên 1 dịch vụ<br>
+                        Thu nhập ổn định mỗi ngày. Thu hồi vốn trong 3 tháng đầu.<br>
+                        Dịch vụ nhượng quyền trên Goladi bao gồm: Đặt ô tô, xe máy. Giao đồ ăn, đi chợ hộ. Giúp việc, Mẹ và bé, Thuê xe, sửa chữa, vv<br>
+                        Dự án đang phát động một cuộc khởi nghĩa bằng tinh thần Khởi Nghiệp. <br>
+                        Tìm kiếm các bạn trẻ có ý chí và tư duy làm chủ, muốn khởi nghiệp bằng công nghệ.<br>
+                        Quan tâm inbox hoặc gọi 0818 68 68 33 để được gửi thông tin chi tiết.<br>
+                        CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ GOLADI VIỆT NAM<br>
+                        Diamond Plaza - 34 Lê Duẩn, Phường Sài Gòn, Thành phố Hồ Chí Minh Việt Nam <br>
+                        Tel: 0818.68.68.33 Hoặc 0856.60.61.68. Web: www.nhuongquyen-goladi.com.vn
+                    <a href="#" class="btn btn-white-outline">Xem thêm</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: sửa lại cái này -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Hợp tác dịch vụ trên Goladi</h2>
+                    <p style="text-align: justify;">Ứng dụng Goladi: Đặt xe & Dịch vụ tìm kiếm hợp tác độc quyền dịch vụ. Hiện có 30 nhóm dịch vụ
+                        không do Goladi vận hành mà tìm kiếm kết nối hợp tác độc quyền từ các đơn vị cung ứng dịch vụ hiện có tại các quận, các khu vực
+                        trên cả nước. <br>
+                        Hợp tác độc quyền là gì? <br>
+                        Hợp tác độc quyền là: Khi khách hàng trên ứng dụng Goladi tìm kiếm dịch vụ Giặt ủi, yêu cầu này sẽ được đưa đến cho Đối tác độc Quyền
+                        về dịch vụ giặt ủi đã kí với Goladi tại Quận, Huyện hoặc khu vực nhất định.<br>
+                        Lợi ích của đối tác độc quyền dịch vụ là gì? <br>
+                        Tiếp cận khách hàng có thói quen dùng dịch vụ trên ứng dụng Goladi với mức chi phí thấp. Thống lĩnh thị phần tại khu vực hoạt động kinh doanh
+                        mà không cần bỏ chi phí xây dựng công nghệ.
+
+                    </p>
+                    <a href="#" class="btn btn-red-outline">Xem thêm</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+            </div>
+        </section>
+
+        <!-- Section 9: Goladi Introduction -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Về Goladi Việt Nam</h2>
+                    <p style="text-align: justify;">Goladi là ứng dụng đa dịch vụ cung cấp giải pháp kinh doanh số trong lĩnh vực như: Gọi xe công nghệ, Gọi
+                        tài xế riêng, Giao đồ ăn, Giao nhận hàng, thuê xe, Giúp việc, đi chợ hộ, chăm bệnh, khách sạn, du lịch,... </br>
+                         Điểm khác biệt mà Goladi tạo ra so với các ứng dụng hiện có trên thị trường: là Goladi không trừ % trên
+                        đơn, trên cuốc xe, Goladi thu phí sử dụng nền tảng theo ngày. Thiết lập thuật toán thu phí theo ngày.</br>
+                         Đối với khách hàng: Cùng một hành trình, cùng một dịch vụ được tiết kiệm rẻ hơn đến 25% về giá.</br>
+                         Đối với tài xế: cùng một tần suất làm việc sẽ có thu nhập cao hơn.</br>
+                         Đối tác "Bán mang đi" trên nền tảng: bán đúng giá nhận đủ tiền.</br>
+                         Đối với các Doanh nghiệp dịch vụ chuyển đổi số dễ dàng với mức chi phí thấp.</br>
+                        Công nghệ thì luôn có chỗ cho cái mới còn khinh doanh thì cần thay đổi linh hoạt theo thời cuộc.</br>
+                         Goladi phấn đấu nằm trong nhóm mô hình tiên phong cho đổi mới sáng tạo, góp phần tích cực đưa Việt Nam
+                         tiến bước mạnh mẽ trong kỷ nguyên số. Nhà sáng lập và dội ngũ dự án Goladi tin rằng công nghệ không chỉ
+                         thay đổi về một doanh thu về mặt tăng trưởng mà Công nghệ làm thay đổi tư duy và ảnh hưởng đến các thế 
+                         hệ tiếp bước về sau.</br></p>
+                    <a href="#" class="btn btn-red-outline">Xem thêm</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 10: Đối tác chiến lược -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Về Goladi Việt Nam</h2>
+                    <p style="text-align: justify;">Goladi là ứng dụng đa dịch vụ cung cấp giải pháp kinh doanh số trong lĩnh vực như: Gọi xe công nghệ, Gọi
+                        tài xế riêng, Giao đồ ăn, Giao nhận hàng, thuê xe, Giúp việc, đi chợ hộ, chăm bệnh, khách sạn, du lịch,... </br>
+                         Điểm khác biệt mà Goladi tạo ra so với các ứng dụng hiện có trên thị trường: là Goladi không trừ % trên
+                        đơn, trên cuốc xe, Goladi thu phí sử dụng nền tảng theo ngày. Thiết lập thuật toán thu phí theo ngày.</br>
+                         Đối với khách hàng: Cùng một hành trình, cùng một dịch vụ được tiết kiệm rẻ hơn đến 25% về giá.</br>
+                         Đối với tài xế: cùng một tần suất làm việc sẽ có thu nhập cao hơn.</br>
+                         Đối tác "Bán mang đi" trên nền tảng: bán đúng giá nhận đủ tiền.</br>
+                         Đối với các Doanh nghiệp dịch vụ chuyển đổi số dễ dàng với mức chi phí thấp.</br>
+                        Công nghệ thì luôn có chỗ cho cái mới còn khinh doanh thì cần thay đổi linh hoạt theo thời cuộc.</br>
+                         Goladi phấn đấu nằm trong nhóm mô hình tiên phong cho đổi mới sáng tạo, góp phần tích cực đưa Việt Nam
+                         tiến bước mạnh mẽ trong kỷ nguyên số. Nhà sáng lập và dội ngũ dự án Goladi tin rằng công nghệ không chỉ
+                         thay đổi về một doanh thu về mặt tăng trưởng mà Công nghệ làm thay đổi tư duy và ảnh hưởng đến các thế 
+                         hệ tiếp bước về sau.</br></p>
+                    <a href="#" class="btn btn-red-outline">Xem thêm</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 11: Báo chí và truyền thông -->
+        <section id="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Goladi - Báo chí và truyền thông</h2>
+                    <p style="text-align: justify;">https://baomoi.com/ung-dung-goi-xe-cong-nghe-goladi-dat-muc-tieu-so-hoa-tai-60-tinh-thanh-c50926127.epi <br>
+                        Ứng dụng gọi xe công nghệ Goladi đặt mục tiêu số hóa tại 60 tỉnh thành<br>
+                        Thị trường gọi xe công nghệ tại Việt Nam đang ngày càng sôi động, nơi các ông lớn liên tục đầu tư để chiếm thị phần tại các thành phố lớn.<br>
+                        https://vlr.vn/goladi-mot-huong-di-khac-biet-trong-thi-truong-cong-nghe-19765.html?zarsrc=410&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo<br>
+                        Goladi: Một hướng đi mới trong thị trường xe công nghệ<br>
+                    </p>
+                    <a href="#" class="btn btn-red-outline">Xem thêm</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-image.jpg" alt="Về Goladi Việt Nam">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section : Brand section -->
+        <section class="brand-section">
+            <div class="brand-header">
+                <h2>Bộ Nhận Diện Thương Hiệu</h2>
+                <a href="#" class="view-all">Xem tất cả <span>&#9654;</span></a>
+            </div>
+
+            <div class="brand-list">
+                <div class="brand-grid">
+                    <div class="brand-item">
+                        <img src="images/brand1.jpg" alt="Túi giao hàng">
+                    </div>
+                    <div class="brand-item">
+                        <img src="images/brand2.jpg" alt="Mũ bảo hiểm">
+                    </div>
+                    <div class="brand-item">
+                        <img src="images/brand3.jpg" alt="Áo khoác">
+                    </div>
+                    <div class="brand-item">
+                        <img src="images/brand4.jpg" alt="Áo phông">
+                    </div>
+                </div>
+
+                <div class="brand-item detail">
+                    <img src="images/brand5.jpg" alt="Camera FPT Outdoor">
+                    <h3>Camera FPT Outdoor</h3>
+                    <p>Camera FPT Outdoor là dòng camera IP chuyên dụng do FPT phát triển...</p>
+                </div>
+                <div class="brand-item detail">
+                    <img src="images/brand6.jpg" alt="Mũ bảo hiểm tay Motorole">
+                    <h3>Mũ bảo hiểm tay Motorole</h3>
+                    <p>Mũ bảo hiểm chất lượng cao đảm bảo an toàn và tiện lợi cho người dùng...</p>
+                </div>
+                <div class="brand-item detail">
+                    <img src="images/brand7.jpg" alt="Bình chữa cháy C02">
+                    <h3>Bình chữa cháy CO2</h3>
+                    <p>Bình chữa cháy chất lượng cao được cấp chứng nhận an toàn...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section : Support section -->
+        <section class="support-section">
+            <div class="support-list">
+                <div class="support-item">
+                    <img src="images/icons/support1.png" alt="Tư vấn nhượng quyền">
+                    <h4>Tư vấn nhượng quyền</h4>
+                    <p>Miễn phí tư vấn, thẩm định và cung cấp bộ chứng từ hợp lệ</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="support-item">
+                    <img src="images/icons/support2.png" alt="Nhận yêu cầu">
+                    <h4>Nhận yêu cầu</h4>
+                    <p>Đặt đơn hàng tại website hoặc ứng dụng Viet Thong Long</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="support-item">
+                    <img src="images/icons/support3.png" alt="Tuyển dụng">
+                    <h4>Tuyển dụng</h4>
+                    <p>Tuyển dụng nhân sự phù hợp và quản lý vận hành</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="support-item">
+                    <img src="images/icons/support4.png" alt="Đào tạo">
+                    <h4>Đào tạo</h4>
+                    <p>Đào tạo kỹ thuật viên chuyên nghiệp với trải nghiệm thực tế</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="support-item">
+                    <img src="images/icons/support5.png" alt="Giám sát">
+                    <h4>Giám sát</h4>
+                    <p>Theo dõi phân bổ liên tục và quản lý vận hành toàn diện</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+                <div class="support-item">
+                    <img src="images/icons/support6.png" alt="Chăm sóc & hậu mãi">
+                    <h4>Chăm sóc & hậu mãi</h4>
+                    <p>Chương trình hậu mãi và chăm sóc khách hàng tận tình</p>
+                    <a href="#">Xem thêm</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
