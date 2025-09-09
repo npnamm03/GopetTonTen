@@ -790,7 +790,7 @@ img {
     .grid-6-cols { grid-template-columns: repeat(3, 1fr); }
     .equipment-layout { grid-template-columns: 1fr; }
     .contact-layout { grid-template-columns: 1fr; }
-    #about { background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images/header.jpg'); }
+    #about { background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images/TonTenMainImage.jpg'); }
     .about-content { width: 100%; padding: 0 15px; }
 }
 
@@ -910,6 +910,10 @@ img {
 }
 
 /* ======== STYLE CHO BẢNG ======== */
+#event-gifts {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/GopetBackGround.jpg');
+}
+
 #event-gifts .table {
     width: 100%;
     border-collapse: collapse; /* Ghép border lại với nhau */
@@ -969,6 +973,68 @@ img {
 
 /* Reset margin cho mô tả */
 #event-gifts .mb-0 {
+    margin-bottom: 0;
+}
+
+#event-gifts-1 .table {
+    width: 100%;
+    border-collapse: collapse; /* Ghép border lại với nhau */
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Header */
+#event-gifts-1 .table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+#event-gifts-1 .table thead th {
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+/* Body */
+#event-gifts-1 .table tbody td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+/* Hover cho dòng */
+#event-gifts-1 .table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Định dạng cột "Top" */
+#event-gifts-1 .table tbody td.text-center {
+    font-weight: bold;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+
+/* Đường viền ngoài cùng */
+#event-gifts-1 .table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+/* Responsive scroll */
+#event-gifts-1 .table-responsive {
+    overflow-x: auto;
+}
+
+/* Chữ mô tả */
+#event-gifts-1 .text-muted {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Reset margin cho mô tả */
+#event-gifts-1 .mb-0 {
     margin-bottom: 0;
 }
 
