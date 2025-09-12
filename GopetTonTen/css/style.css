@@ -544,7 +544,7 @@ img {
 
 .about-text {
     background-color: rgba(10, 36, 99, 0.8); /* Semi-transparent navy */
-    color: rgba(220, 227, 243, 0.8);
+    color: rgba(255, 255, 255, 0.998);
     padding: 40px;
     border-radius: 8px;
     backdrop-filter: blur(5px);
@@ -564,6 +564,30 @@ img {
     margin-bottom: 30px;
 }
 
+.about-text ul{
+  margin: 20px 0;
+  padding-left: 20px;         
+  list-style: none;       
+}
+
+.about-text li{
+  position: relative;
+  padding-left: 18px;     
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.about-text li::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9em;              
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: #f40909;      
+  border-radius: 50%;
+}
 
 /* --- Section 8: Key Metrics --- */
 #metrics {
