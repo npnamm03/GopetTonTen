@@ -75,6 +75,14 @@ img {
     padding-bottom: 10px;
 }
 
+.section-title-code {
+    font-size: 2.2rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+    color: red;
+}
+
 .section-title::after {
     content: '';
     position: absolute;
@@ -783,7 +791,6 @@ img {
     margin-bottom: 5px;
 }
 
-
 /* --- Responsiveness --- */
 @media (max-width: 992px) {
     .grid-3-cols { grid-template-columns: 1fr 1fr; }
@@ -793,7 +800,6 @@ img {
     #about { background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images/TonTenMainImage.jpg'); }
     .about-content { width: 100%; padding: 0 15px; }
 }
-
 
 @media (max-width: 768px) {
     .section-title { font-size: 1.8rem; }
